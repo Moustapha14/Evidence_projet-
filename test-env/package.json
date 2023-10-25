@@ -1,0 +1,20 @@
+{
+	"name": "evidence-test-environment",
+	"version": "2.1.1",
+	"private": true,
+	"scripts": {
+		"build": "evidence build",
+		"dev": "evidence dev",
+		"test": "evidence build"
+	},
+	"engines": {
+		"npm": ">=7.0.0",
+		"node": ">=14.0.0"
+	},
+	"type": "module",
+	"dependencies": {
+		"@evidence-dev/component-utilities": "workspace:^",
+		"@evidence-dev/core-components": "workspace:^",
+		"@evidence-dev/evidence": "workspace:^"
+	}
+}
